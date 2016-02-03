@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        //测试分支
+        
         let rootVC: RootVC  = RootVC()
         let nav = UINavigationController(rootViewController: rootVC)
         self.window?.rootViewController = nav
